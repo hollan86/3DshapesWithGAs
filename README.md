@@ -14,6 +14,6 @@ A genetic algorithm based on the [DEAP](https://github.com/deap/deap) framework 
 ![](https://github.com/hollan86/3DshapesWithGAs/blob/main/genome3.png)
 
 [Genome length=4 Interactive plot](https://plotly.com/~hollan86/8/)
-![](https://github.com/hollan86/3DshapesWithGAs/blob/main/genome4.png
+![](https://github.com/hollan86/3DshapesWithGAs/blob/main/genome4.png)
 
 
