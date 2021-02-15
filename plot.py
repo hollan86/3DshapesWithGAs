@@ -1,5 +1,15 @@
 import numpy as np 
 import plotly.graph_objs as go
+import plotly.io as pio
+import chart_studio
+import chart_studio.plotly as py
+
+username = 'hollan86'
+api_key = '6klISXULdVkgT6209Djn'
+
+chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
+
+
 
 def vector_plot(tvects,is_vect=True,orig=[0,0,0]):
     """Plot vectors using plotly"""
@@ -33,4 +43,6 @@ def vector_plot(tvects,is_vect=True,orig=[0,0,0]):
                            t = 4)
                   )
     fig = go.Figure(data=data,layout=layout)
-    fig.show()
+    #pio.write_html(fig,file='index.html',auto_open=False)
+    py.plot(fig, filename = 'gdp_per_cap4', auto_open=True)
+    #fig.show()

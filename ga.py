@@ -42,7 +42,7 @@ creator.create("Individual", list, fitness=creator.FitnessMaxDistance)
 toolbox = base.Toolbox()
 
 toolbox.register("vec_genes",get_genes)
-toolbox.register("individual", tools.initRepeat,creator.Individual,toolbox.vec_genes,n=2)
+toolbox.register("individual", tools.initRepeat,creator.Individual,toolbox.vec_genes,n=4)
 toolbox.register("population",tools.initRepeat,list, toolbox.individual)
 
 toolbox.register("evaluate",total_distance)
