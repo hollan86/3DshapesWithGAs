@@ -6,3 +6,5 @@ A genetic algorithm(GA) is an optimization technique inspired by natural selecti
 ![](https://github.com/hollan86/3DshapesWithGAs/blob/main/fitness.png )
 
 A genetic algorithm based on the [DEAP](https://github.com/deap/deap) framework is then used to maximize this fitness. The genome used in initial experiments is a list containing random charge locations in spherical coordinates. Initial experiments show that it is possible to obtain optimum shapes using this setup. As seen below, if the genome is of length 2, the optimum shape is a straight line connecting the two point charges. If the genome is of length 3, optimum shape is an equilateral triangel connecting the three point charges. If the genome length is 4, the optimal shape is a tetrahedron. See the interactive plots below.
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~hollan86/1.embed" height="525" width="100%"></iframe>
