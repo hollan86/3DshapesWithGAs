@@ -44,5 +44,5 @@ def vector_plot(tvects,is_vect=True,orig=[0,0,0]):
                   )
     fig = go.Figure(data=data,layout=layout)
     #pio.write_html(fig,file='index.html',auto_open=False)
-    py.plot(fig, filename = 'gdp_per_cap4', auto_open=True)
-    #fig.show()
+    #py.plot(fig, filename = 'gdp_per_cap4', auto_open=True)
+    fig.show()
