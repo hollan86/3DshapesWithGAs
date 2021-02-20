@@ -4,10 +4,8 @@ import plotly.io as pio
 import chart_studio
 import chart_studio.plotly as py
 
-username = 'hollan86'
-api_key = '6klISXULdVkgT6209Djn'
 
-chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
+#chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
 
 
 
